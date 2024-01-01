@@ -161,3 +161,10 @@ a {
 }
 
 /* Footer */
+
+.footer {
+    text-align: center;
+    background-color: #281F16;
+    color: #F9FAF8;
+    padding: 30px;
+}
