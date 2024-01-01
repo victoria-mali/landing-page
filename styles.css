@@ -1,0 +1,163 @@
+/* Hero */
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero {
+    background-color: #281F16;
+    padding: 0 200px 100px 200px;
+}
+
+.hero-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+}
+
+.hero-nav-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.hero-nav-link {
+    font-size: 18px;
+    margin-right: 14px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-content-left-h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content-left-par {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-content-left-button {
+    border: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #F9FAF8;
+    background-color: #B17D4E;
+}
+
+.hero-content-right img {
+    width: 500px;
+    height: auto;
+}
+
+/* Info */
+
+.info {
+    padding: 80px 200px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.info-bullet-text {
+    color: #535b68;
+}
+
+.info-bullet {
+    text-align: center;
+}
+
+.info-bullet-img {
+    width: 150px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #EED9C5;
+    text-align: center;
+    padding: 120px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: right;
+    color: #1f2937;
+}
+
+
+/* CTA */
+
+.cta {
+    background-color: #B17D4E;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-header {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: #F9FAF8;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-right {
+    padding: 15px 60px;
+    font-size: 20px;
+    border: solid 2px #F9FAF8;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #F9FAF8;
+}
+
+/* Footer */
